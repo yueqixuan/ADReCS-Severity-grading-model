@@ -1,4 +1,8 @@
+ADReCS Severity-grading model
+====
+
 The ADReCS severity-grading model consists of three steps:
+
 Step 1: Data input
 Step 2: Calculate ADR Severity_score
 Step 3: ADR Severity Grading
