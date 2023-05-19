@@ -1,12 +1,14 @@
 library(data.table)
 library(tidyr)
 
+# Step1:
 # Load report data
 report_data <- fread("example_data/report_data.txt", sep = "\t")
 
 # Load report statistical data（ROR of Drug-ADR pairs)
 drug_adr_ROR <- fread("example_data/drug_adr_ROR.txt", sep = "\t")
 
+# Step2:
 # Count the number of occurrences of each outcome in Drug-ADR pairs
 Statistical_outcome <- function(input_data){
   report_data_tmp1 <- input_data[, table(reaction_outcome), by = c("substance_name", "pt_term")]
@@ -41,6 +43,7 @@ severity_function <- function(input_x){
 }
 report_data_tmp$Severity_score <- apply(report_data_tmp[, c("P_outcome_1", "P_outcome_2", "P_outcome_3", "P_outcome_4", "P_outcome_5", "drug_adr_pair_ROR")], 1, severity_function)
 
+# Step3:
 # Determine threshold boundaries
 number_of_grade <- 5
 df_threshold <- data.frame()
