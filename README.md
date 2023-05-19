@@ -5,7 +5,7 @@ The [ADReCS](http://www.bio-add.org/ADReCS) severity-grading model consists of t
 * Step2: Calculate ADR Severity_score.<br>
 * Step3: ADR Severity Grading.<br>
 
-Input files: `report_data.txt` and `drug_adr_ROR.txt`.
+Input files: *report_data.txt* and *drug_adr_ROR.txt*.
 ----
 
 1. The [report_data.txt](https://github.com/yueqixuan/ADReCS-Severity-grading-model/blob/main/example_data/report_data.txt) file needs four columns:<br>
