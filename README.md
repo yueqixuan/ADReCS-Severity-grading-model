@@ -1,9 +1,9 @@
 The ADReCS severity-grading model consists of three steps:
 ----
 
-Step 1: Data input<br>
-Step 2: Calculate ADR Severity_score<br>
-Step 3: ADR Severity Grading<br>
+	* Step 1: Data input<br>
+	* Step 2: Calculate ADR Severity_score<br>
+	* Step 3: ADR Severity Grading<br>
 
 The model's calculations rely on two input files: drug_adr_ROR.txt and report_data.txt.
 ----
