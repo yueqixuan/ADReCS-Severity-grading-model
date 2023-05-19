@@ -1,4 +1,4 @@
-The ADReCS severity-grading model consists of three steps:
+The [ADReCS](http://www.bio-add.org/ADReCS) severity-grading model consists of three steps:
 ----
 
 * Step1: Data input<br>
