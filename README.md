@@ -1,6 +1,6 @@
 The [ADReCS](http://www.bio-add.org/ADReCS) severity-grading model consists of three steps:
 ----
-* Step1: Data input.
+* Step1: Input ADR reports data.
 * Step2: Calculate ADR Severity_score.
 * Step3: ADR Severity Grading.
 
